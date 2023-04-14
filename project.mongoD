@@ -341,6 +341,25 @@ db.customers.insert({[
 })
 
 
+5. db.order.find({"orderer_name": "John"})
+
+
+6. db.categories.update({"category_id": "CAT002"},
+{ $set:{
+        "brands.0.items.0.price":33000
+    }
+})
+
+//PROBLEM 4
+
+1. Restore
+
+mongoexport --db test --collection citId --type=json --fields _id,name,country --out citId.json
+
+2. Import
+mongoimport --db local --collection citId --file citId.json
+
+
 
 
 
