@@ -363,3 +363,52 @@ mongoimport --db local --collection citId --file citId.json
 
 
 
+
+///PROBLEM 5
+
+OREDERS--
+db.order.createIndexes({"orderer_name":1})
+
+CATEGORIES--
+db.categories.createIndexes({"category_name":1})
+db.categories.createIndexes({"brand_name":1})
+
+CUSTOMERS--
+db.customer.createIndexes({"coustmer_name":1})
+
+
+////PROBLEM 6
+db.orders.aggregate([
+	{
+		$group:{
+			items.$.price:{$sum:1}
+		}
+	}
+])
+
+///problem 7 
+created a cluster in  mongoDB atlas with the name called cluster1
+
+
+////PROBLEM 8
+
+Diaognistic commands
+buildInfo
+collStats
+connectionStatus
+dbStats
+explain
+getLog
+getMore
+hostInfo
+
+
+////PROBLEM 10
+
+ mongod --port 2001 --dbpath data/rs1 --replSet --rithik --oplogSize 128
+ mongod --port 2002 --dbpath data/rs2 --replSet --rithik --oplogSize 128
+ mongod --port 2003 --dbpath data/rs3 --replSet --rithik --oplogSize 128
+
+rs.initiate()
+rs.add("127.0.0.1:2002")
+
