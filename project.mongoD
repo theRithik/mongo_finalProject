@@ -269,3 +269,78 @@ db.categories.insert([
 
 
 
+db.customers.insert({[
+{
+	"customer_id": "CUST001",
+	"customer_name": "John",
+	"contact_number": "9158385438",
+	"address":
+     {
+         "streetAddress": "709 Honey Creek Dr.",  
+ 
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "10028"
+     },
+	"birth_date": "12-12-1993"
+},
+{
+	"customer_id": "CUST002",
+	"customer_name": "James",
+	"contact_number": "9158385234",
+	"address":
+     {
+         "streetAddress": "3 South Sherman Street Astoria",
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "11106"
+     },
+	"birth_date": "13-12-1994"
+},
+{
+	"customer_id": "CUST003",
+	"customer_name": "Smith",
+	"contact_number": "8758385438",
+	"address":
+     {
+         "streetAddress": "73 Pacific St. Forest Hills",
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "11375"
+     },
+	"birth_date": "10-12-1993"
+},
+{
+	"customer_id": "CUST004",
+	"customer_name": "Linda",
+	"contact_number": "7858385438",
+	"address":
+     {
+         "streetAddress": "812 Thatcher Court Yonkers",
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "10701"
+     },
+	"birth_date": "10-12-1994"
+},
+{
+	"customer_id": "CUST004",
+	"customer_name": "Mary",
+	"contact_number": "7875085438",
+	"address":
+     {
+         "streetAddress": "93 Bayport Ave. South Richmond Hill",
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "11419"
+     },
+	"birth_date": "10-12-1994"
+}
+]
+
+})
+
+
+
+
+
