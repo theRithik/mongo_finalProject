@@ -116,3 +116,156 @@ PROBLEM 3 -
 	"shipping_date": "17-12-2017"
 }
 ])
+
+
+
+db.categories.insert([
+{
+	"category_id": "CAT001",
+	"category_name": "mobile",
+	"brands": [
+	{
+	"brand_id": "BRN001",
+	"brand_name": "Sony",
+	"items":[
+	{
+	"item id": "001",
+	"item name": "Xperia R1",
+	"price": 13990
+	},
+	{
+	"item id": "002",
+	"item name": "Xperia XZ",
+	"price": 46990
+	},
+	{
+	"item id": "003",
+	"item name": "Xperia XA",
+	"price": 24990
+	},
+	{
+	"item id": "004",
+	"item name": "Xperia Z5",
+	"price": 42990
+	}
+	]
+	},
+	{
+	"brand_id": "BRN002",
+	"brand_name": "Samsung",
+	"items":[
+	{
+	"item id": "005",
+	"item name": "Samsung Galaxy J7",
+	"price": 11890
+	},
+	{
+	"item id": "006",
+	"item name": "Samsung Galaxy S8",
+	"price": 52999
+	},
+	{
+	"item id": "007",
+	"item name": "Samsung Galaxy Note",
+	"price": "$1000"
+	},
+	{
+	"item id": "008",
+	"item name": "Samsung Galaxy A9",
+	"price": 22499
+	}
+	]
+	}
+	]
+},
+{
+	"category_id": "CAT002",
+	"category_name": "computer",
+	"brands": [
+	{
+	"brand_id": "BRN003",
+	"brand_name": "Dell",
+	"items":[
+	{
+	"item id": "009",
+	"item name": "Dell OptiPlex",
+	"price": 32200
+	},
+	{
+	"item id": "010",
+	"item name": "Dell Inspiron",
+	"price": 26990
+	},
+	{
+	"item id": "011",
+	"item name": "Dell AIO",
+	"price": 23876
+	}
+	]
+	},
+	{
+	"brand_id": "BRN004",
+	"brand_name": "Apple",
+	"items":[
+	{
+	"item id": "013",
+	"item name": "Apple iMac",
+	"price": 82000
+	},
+	{
+	"item id": "014",
+	"item name": "Apple MGEN2HN/A",
+	"price": 52849
+	}
+	]
+	}
+	]
+	},
+	{
+	"category_id": "CAT003",
+	"category_name": "TV",
+	"brands": [
+	{
+	"brand_id": "BRN005",
+	"brand_name": "LG",
+	"items":[
+	{
+	"item id": "017",
+	"item name": "49LJ52KT",
+	"price": 659990
+	},
+	{
+	"item id": "018",
+	"item name": "49LJ53IT",
+	"price": 48990
+	}
+	]
+	},
+	{
+	"brand_id": "BRN006",
+	"brand_name": "Philips",
+	"items":[
+	{
+	"item id": "021",
+	"item name": "32PFL3931/V7",
+	"price": 15999
+	},
+	{
+	"item id": "022",
+	"item name": "43PUTT7791",
+	"price": 43490
+	},
+	{
+	"item id": "023",
+	"item name": "55PFL5059/V7",
+	"price": 56920
+	},
+	]
+	}
+	]
+	}
+
+])
+
+
+
