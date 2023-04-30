@@ -390,25 +390,3 @@ db.orders.aggregate([
 created a cluster in  mongoDB atlas with the name called cluster1
 
 
-////PROBLEM 8
-
-Diaognistic commands
-buildInfo
-collStats
-connectionStatus
-dbStats
-explain
-getLog
-getMore
-hostInfo
-
-
-////PROBLEM 10
-
- mongod --port 2001 --dbpath data/rs1 --replSet --rithik --oplogSize 128
- mongod --port 2002 --dbpath data/rs2 --replSet --rithik --oplogSize 128
- mongod --port 2003 --dbpath data/rs3 --replSet --rithik --oplogSize 128
-
-rs.initiate()
-rs.add("127.0.0.1:2002")
-
