@@ -395,6 +395,13 @@ Diaognistic commands
 buildInfo
 collStats
 connectionStatus
+dbStats
+explain
+getLog
+getMore
+hostInfo
+
+
 
 
 
