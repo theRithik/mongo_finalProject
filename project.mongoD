@@ -411,5 +411,6 @@ hostInfo
  mongod --port 2003 --dbpath data/rs3 --replSet --rithik --oplogSize 128
 
 
-
+rs.initiate()
+rs.add("127.0.0.1:2002")
 
