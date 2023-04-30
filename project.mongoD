@@ -404,4 +404,12 @@ hostInfo
 
 
 
+////PROBLEM 10
+
+ mongod --port 2001 --dbpath data/rs1 --replSet --rithik --oplogSize 128
+ mongod --port 2002 --dbpath data/rs2 --replSet --rithik --oplogSize 128
+ mongod --port 2003 --dbpath data/rs3 --replSet --rithik --oplogSize 128
+
+
+
 
