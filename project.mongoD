@@ -389,4 +389,12 @@ db.orders.aggregate([
 ///problem 7 
 created a cluster in  mongoDB atlas with the name called cluster1
 
+////PROBLEM 8
+
+Diaognistic commands
+buildInfo
+collStats
+connectionStatus
+
+
 
